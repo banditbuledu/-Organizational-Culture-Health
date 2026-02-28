@@ -3,8 +3,8 @@ from google import genai
 import plotly.graph_objects as go
 
 # 1. API 설정
-GOOGLE_API_KEY = st.secrets["AIzaSyDIsaCfkHxzKVA3Y0F693NOm0tFqBN"]
-client = genai.Client(api_key=AIzaSyDIsaCfkHxzKVA3Y0F693NOm0tFqBN)
+GOOGLE_API_KEY = st.secrets["AIzaSyDIsaCfkHxzKVA3Y0F693NOm0tFqBNzNY8"]
+client = genai.Client(api_key=AIzaSyDIsaCfkHxzKVA3Y0F693NOm0tFqBNzNY8)
 
 # 2. 진단 전문가 페르소나 (사용자님의 핵심 로직)
 SYSTEM_PROMPT = """
